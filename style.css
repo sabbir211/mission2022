@@ -1,123 +1,146 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.dFlex{
+
+#header {
+    line-height: 0.7;
+    padding-left: 5px;
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, #9f03b6, #d0111b) 2;
+}
+
+.dFlex {
     display: flex;
 }
 
-.container{
+.container {
     width: 50%;
     margin-left: 80px;
     padding: 50px;
-    
 }
-.imgContainer{
-    margin-top: 0;
-    padding-top: 0;
-}
-.container img{
+
+.container img {
     width: 75%;
 }
 
-.container h1{
+.container h1 {
     font-size: 3rem;
 }
-.container h2{
+
+.container h2 {
     color: rgb(204, 37, 134);
     font-size: 2.5rem;
 }
 
-.btn{
-  border: none;  
-  padding: 10px 15px;
-  border-radius: 5px;
-  background: linear-gradient(#8103b6,#d011c2);
-  color: rgb(232, 255, 248);
-  font-weight: 900;
-  cursor: pointer;
+.btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: linear-gradient(#8103b6, #d011c2);
+    color: rgb(232, 255, 248);
+    font-weight: 900;
+    cursor: pointer;
 }
-#myMission{
+
+#myMission {
     font-size: 2.3rem;
     text-align: center;
 }
-#myMission span{
+
+#myMission span {
     color: rgb(204, 37, 134);
 }
-#secondSec{
+
+#secondSec {
     margin: 10px 50px;
-    
-}
-#secondSec h5{
-   font-size: 2rem;
-   line-height: 2px;
 }
 
-#secondSec img{
+#secondSec h5 {
+    font-size: 2rem;
+    line-height: 2px;
+}
+
+#secondSec img {
     width: 50%;
     text-align: center;
 }
-.myMissionCart{
+
+.myMissionCart {
     border-radius: 10px;
     padding: 5px 20px;
-    margin: 20px;  
+    margin: 20px;
 }
-#mission{
-    background-color:rgba(38, 41, 218, 0.288);  
+
+#mission {
+    background-color: rgba(38, 41, 218, 0.288);
 }
-#vission{
-    background-color:rgba(182, 10, 168, 0.212); 
+
+#vision {
+    background-color: rgba(182, 10, 168, 0.212);
 }
-#goal{
-    background-color:rgba(194, 61, 61, 0.219);
+
+#goal {
+    background-color: rgba(194, 61, 61, 0.219);
 }
-#thirdSec img{
-width: 80%;    
+
+#thirdSec img {
+    width: 80%;
 }
-#codingImg{
+
+#codingImg {
     width: 45%;
     margin-left: 70px;
 }
-#develop{
-width: 70%;
+
+#develop {
+    width: 70%;
 }
+
 #knowGlobal {
     width: 50%;
     margin-left: 110px;
     padding-top: 44px;
 }
-#globalImg{
+
+#globalImg {
     width: 30%;
 }
-#globalImg img{
+
+#globalImg img {
     width: 90%;
 }
 
-#ourWork img{
+#ourWork img {
     width: 30%;
     height: 400px;
     margin: 34px;
     opacity: 0.6;
 }
-#ourWork img:hover{
- opacity: 1;
- cursor: pointer;
+
+#ourWork img:hover {
+    opacity: 1;
+    cursor: pointer;
 }
-#ourWork h3{
+
+#ourWork h3 {
     font-size: 3rem;
     text-align: center;
     color: rgb(146, 23, 85);
 }
-#footer{
+
+#footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
     margin-top: 40px;
 }
-#footer h2{
+
+#footer h2 {
     font-family: 'Lobster', cursive;
     font-weight: 400;
 }
-#footer span{
-    color: rgb(133, 22, 2);
+
+#footer span {
+    color: rgb(163, 13, 113);
 }
