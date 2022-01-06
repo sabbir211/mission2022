@@ -45,6 +45,7 @@ body{
 }
 #secondSec{
     margin: 10px 50px;
+    
 }
 #secondSec h5{
    font-size: 2rem;
@@ -91,6 +92,21 @@ width: 70%;
     width: 90%;
 }
 
+#ourWork img{
+    width: 30%;
+    height: 400px;
+    margin: 34px;
+    opacity: 0.6;
+}
+#ourWork img:hover{
+ opacity: 1;
+ cursor: pointer;
+}
+#ourWork h3{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(146, 23, 85);
+}
 #footer{
     background-color: black;
     color: white;
